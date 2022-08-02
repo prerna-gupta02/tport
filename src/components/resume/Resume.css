@@ -1,0 +1,158 @@
+.resume{
+    width: 80%;
+    margin: 0 auto;
+}
+.resume .com-r{
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #D2CBBA 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    padding: 50px 30px;
+    width: 80%;
+    margin: 50px auto;
+}
+.resume .com-r:hover{
+    box-shadow: 5px 5px 0px #0000001A;
+}
+.resume .com-r h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 39px;
+    border-bottom: 2px solid #D2CBBA;
+    margin-bottom: 20px;
+}
+.resume .com-r p{
+    font-size: 15px;
+    font-family: 'Ibarra Real Nova', serif;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+.resume .experience .exp-div,
+.resume .education .edu-div{
+    margin: 30px 0;
+}
+.resume .experience .exp-div img{
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+.resume .experience .exp-div div h3,
+.resume .education .edu-div div h3{
+    font-size: 23px;
+    font-family: 'Ibarra Real Nova', serif;
+    letter-spacing: 2.3px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.resume .experience .exp-div div p,
+.resume .education .edu-div div p{
+    letter-spacing: 2px;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.resume .experience .exp-div div p:nth-child(3),
+.resume .education .edu-div div p:nth-child(3){
+    opacity: 1;
+    line-height: 1.1;
+}
+.resume .education .edu-div img{
+    width: 80px;
+    height: 80px;
+}
+.resume .education .edu-div div{
+    padding-left: 20px;
+}
+.resume .skills .skills-div{
+    margin: 40px auto 0 auto;
+    width: 80%;
+}
+.resume .skills .skills-div h3{
+    font-size: 27px;
+    letter-spacing: 1.62px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+}
+.resume .skills .skills-div p{
+    font-size: 22px;
+    letter-spacing: 1.32px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.footer-bttn{
+    margin-top: 40px;
+    padding: 40px;
+    background: transparent linear-gradient(0deg, #D2CBBA 0%, #D2CBBA0A 42%, #D2CBBA00 100%) 0% 0% no-repeat padding-box;
+}
+.footer-bttn .down-btn{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ACA186;
+    border-radius: 31px;
+    letter-spacing: 2.4px;
+    color: #ACA186;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    padding: 10px 30px;
+    font-weight: 700;
+    display: flex;
+    margin: 50px auto;
+    width: fit-content;
+    text-decoration: none;
+}
+.footer-bttn .down-btn:hover{
+    background: #D2CBBA 0% 0% no-repeat padding-box;
+    border-radius: 31px;
+    color: #FFFFFF;
+    border: 1px solid #D2CBBA;
+}
+.footer-bttn .icons{
+    margin-top: 50px;
+    padding: 50px 30px;
+    justify-content: center;
+}
+.footer-bttn .icons svg{
+    width: 25px;
+    height: 25px;
+    margin: 0 20px;
+    color: #000;
+}
+@media screen and (max-width: 1120px) {
+    .resume {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .resume .com-r {
+        width: 95%;
+    }
+    .resume .experience .exp-div div p, 
+    .resume .education .edu-div div p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .resume .com-r {
+        padding: 50px 10px;
+        margin: 50px auto 0 auto;
+    }
+    .resume .experience .exp-div img,
+    .resume .education .edu-div img
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .resume .experience .exp-div div p, 
+    .resume .education .edu-div div p {
+        letter-spacing: 0px;
+    }
+    .resume .skills .skills-div {
+        flex-direction: column;
+    }
+    .resume .skills .skills-div .tech-skills{
+        margin-bottom: 30px;
+    }
+    .footer-bttn {
+        margin-top: 0px;
+    }
+    .resume .skills .skills-div p {
+        font-size: 17px;
+    }
+    .resume .experience .exp-div div h3, 
+    .resume .education .edu-div div h3 {
+        font-size: 18px;
+    }
+}

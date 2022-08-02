@@ -1,0 +1,257 @@
+.landing-section{
+    background: transparent linear-gradient(180deg, #D2CBBA 0%, #D2CBBA00 100%) 0% 0% no-repeat padding-box;
+}
+.landing-text{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.landing-text h1{
+    letter-spacing: 6.5px;
+    font-size: 65px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 600;
+}
+.landing-text h3{
+    letter-spacing: 3.5px;
+    font-size: 35px;
+    font-family: 'Ibarra Real Nova', serif;
+    width: 742px;
+    text-align: center;
+    margin-top: 20px;
+}
+.landing-section .know-link{
+    text-align: center;
+    height: 10vh;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+}
+.landing-section .know-link a{
+    color: #000;
+    text-decoration: none;
+}
+.about-section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10% 0 0 0;
+    display: flex;
+}
+.about-section .mypic{
+    width: 45%;
+}
+.about-section .mypic img{
+    width: 100%;
+    height: 100%;
+    transition: border-radius 0.2s ease-in;
+}
+.about-section .mypic img:hover{
+    border-radius: 20px;
+    transition: border-radius 0.2s ease-in;
+}
+.about-section .about-content{
+    width: 55%;
+}
+.about-section .about-content h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    height: 7%;
+    margin-bottom: 0;
+}
+.about-content-text{
+    width: 115%;
+    padding: 10% 50px;
+    position: relative;
+    left: -15%;
+    background-color: #D2CBBA;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: border-radius 0.2s ease-in;
+}
+.about-content-text:hover{
+    border-radius: 20px;
+    transition: border-radius 0.2s ease-in;
+}
+.about-content-text p{
+    font-size: 20.5px;
+    margin-bottom: 0;
+}
+.contact-section{
+    margin: 0 auto;
+    padding: 7% 20%;
+    background: transparent linear-gradient(0deg, #D2CBBA 0%, #D2CBBA0A 42%, #D2CBBA00 100%) 0% 0% no-repeat padding-box;
+}
+.contact-section h1{
+    font-size: 80px;
+    letter-spacing: 7.6px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-section p{
+    font-size: 25px;
+    letter-spacing: 2.6px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+}
+.contact-section .form{
+    align-items: center;
+    margin-top: 80px;
+}
+.contact-section .form textarea{
+    height: 220px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 0px 3px 15px #00000029;
+    outline: none;
+}
+.contact-section .form textarea::placeholder{
+    font-weight: 700;
+    opacity: 0.6;
+}
+.contact-section .form .btn{
+    align-self: flex-end;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 0.20000000298023224px solid #000000;
+    border-radius: 5px;
+    font-family: 'Ibarra Real Nova', serif;
+    letter-spacing: 2.4px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.contact-section .icons{
+    margin-top: 50px 0;
+    padding: 80px 30px 0;
+}
+.contact-section .icons svg{
+    width: 25px;
+    height: 25px;
+    margin: 0 20px;
+    color: #000;
+}
+@media screen and (max-width: 1190px) {
+    .about-section .mypic {
+        width: 55%;
+    }
+    .contact-section h1 {
+        font-size: 75px;
+    }
+    .contact-section p {
+        font-size: 20px;
+    }
+    .contact-section{
+        padding: 7% 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        margin: auto 10px;
+    }
+    .landing-text h1{
+        text-align: center;
+    }
+    .landing-text h1 span{
+        font-weight: 500;
+        display: block;
+    }
+    .about-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section .about-content h1{
+        display: none;
+    }
+    .about-section .about-content{
+        width: 100%;
+    }
+    .about-content-text{
+        width: 100%;
+        padding: 10% 50px;
+        left: 0%;
+    }
+    .about-section .mypic {
+        width: 70%;
+    }
+    .contact-section h1 {
+        font-size: 65px;
+    }
+}
+@media screen and (max-width:768px) {
+    .landing-text{
+        height: 70vh;
+    }
+    .landing-text h1{
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .landing-text h3{
+        font-size: 22px;
+        width: 90%;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .about-content-text p{
+        font-size: 17.5px;
+    }
+    .contact-section h1 {
+        font-size: 40px;
+    }
+    .contact-section p {
+        font-size: 16px;
+    }
+    .contact-section{
+        padding: 7% 5%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about-content-text p{
+        font-size: 12px;
+    }
+    .contact-section h1 {
+        font-size: 30px;
+    }
+    .contact-section p {
+        font-size: 14px;
+    }
+    .contact-section .form textarea {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .landing-text{
+        height: 65vh;
+    }
+    .landing-text h1{
+        font-size: 34px;
+    }
+    .landing-text h3{
+        font-size: 18px;
+    }
+    .landing-section .know-link {
+        font-size: 14px;
+    }
+    .contact-section h1 {
+        font-size: 20px;
+    }
+    .contact-section p {
+        font-size: 12px;
+    }
+    .contact-section .form textarea {
+        height: 150px;
+    }
+}
