@@ -13,7 +13,7 @@
     font-weight: 700;
     text-decoration: none;
 }
-.navbar-expand-md .navbar-nav .nav-link a{
+.navbar-expand-lg .navbar-nav .nav-link a{
     float: right;
     text-decoration: none;
     font-size: 24px;
@@ -22,11 +22,12 @@
     font-weight: 500;
     margin: auto 20px;
     position: relative;
+    padding-bottom: 10px;
 }
-.navbar-expand-md .navbar-nav .nav-link a:hover{
+.navbar-expand-lg .navbar-nav .nav-link a:hover{
     font-weight: 700;
 }
-.navbar-expand-md .navbar-nav .nav-link a::after {
+.navbar-expand-lg .navbar-nav .nav-link a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -40,8 +41,8 @@
     transform: scale(0);
     transform-origin: center;
 }  
-.navbar-expand-md .navbar-nav .nav-link a:hover::after,
-.navbar-expand-md .navbar-nav .nav-link a:focus::after {
+.navbar-expand-lg .navbar-nav .nav-link a:hover::after,
+.navbar-expand-lg .navbar-nav .nav-link a:focus::after {
     opacity: 1;
     /* transform: translate3d(0, 0.2em, 0); */
     transform: scale(1);

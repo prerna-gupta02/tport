@@ -23,7 +23,7 @@ export default function Header(args) {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-        <Navbar {...args} expand="md">
+        <Navbar {...args} expand="lg">
         <NavbarBrand className='lg-nav-brand'><Link to='/'>Tannu Sharma</Link></NavbarBrand>
         <NavbarBrand className='mb-nav-brand d-none' href="/">TS</NavbarBrand>
         <NavbarToggler onClick={toggle} />

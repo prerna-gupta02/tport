@@ -13,7 +13,7 @@
     margin-bottom: 40px;
 }
 .projects .project-section img{
-    width: 90%;
+    width: 70%;
 }
 .projects .project-section img:hover{
     transform: scale(1.015);

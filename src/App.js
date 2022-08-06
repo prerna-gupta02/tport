@@ -20,7 +20,7 @@ function App() {
       {/* <Home /> */}
       {/* <Projects /> */}
       {/* <Sahayproject /> */}
-      <Resume />
+      {/* <Resume /> */}
     </div>
     </Router>
   );

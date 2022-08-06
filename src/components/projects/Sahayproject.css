@@ -20,7 +20,7 @@
     text-align: center;
 }
 .sahay-project p{
-    font-size: 26.5px;
+    font-size: 20px;
     letter-spacing: 1.32px;
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 400;
@@ -29,11 +29,11 @@
     margin: 30px auto;
 }
 .sahay-project .sahayimage{
-    width: 80%;
-    margin: 0 10%;
+    width: 60%;
+    margin: 0 20%;
 }
 .sahay-project .topography-icons{
-    margin: 30px 10%;
+    margin: 30px 20%;
     padding: 40px 0;
 }
 .sahay-project .topography-icons .topography{
@@ -44,7 +44,7 @@
 }
 .sahay-project .topography-icons .topography .topo-heading,
 .sahay-project .topography-icons .iconset h1{
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 4.8px;
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 700;
@@ -107,16 +107,19 @@
     font-weight: 800;
 }
 .sahay-project .topography-icons .iconset p{
-    width: 75%;
+    width: 85%;
     margin: 0 0 20px 0;
+    font-size: 20px;
 }
 .sahay-project .topography-icons .iconset .icons img{
     margin: 20px 20px 10px 0;
+    height: 27px;
+    width: 25px;
 }
 .sahay-project .userflow h1,
 .sahay-project .dashboard h1,
 .screens h1{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Ibarra Real Nova', serif;
     text-align: left;
     letter-spacing: 4.8px;
@@ -124,7 +127,7 @@
 .sahay-project .userflow .flow-div p,
 .sahay-project .dashboard p{
     letter-spacing: 1.5px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     color: #696969;
     width: 40.5%;
@@ -146,14 +149,14 @@
 .sahay-project .dashboard h3{
     letter-spacing: 0px;
     color: #696969;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Ibarra Real Nova', serif;
     margin-top: 50px;
     margin-bottom: 0;
 }
 .sahay-project .dashboard img{
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
 }
 .sahay-project .screens{
     width: 100%;
@@ -180,6 +183,9 @@
     font-size: 20px;
     font-family: 'Ibarra Real Nova', serif;
     margin-bottom: 20px;
+}
+.screens .screen-grid div:hover{
+    transform: scale(1.05);
 }
 .sahay-project .screens .icons{
     margin-top: 50px;

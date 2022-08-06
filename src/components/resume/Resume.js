@@ -10,6 +10,7 @@ import PDMLogo from '../../assets/PDM.png'
 import { Button } from 'reactstrap'
 import { FaLinkedinIn, FaGithub, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import { Link } from 'react-router-dom'
 
 export default function Resume() {
   return (
@@ -99,7 +100,7 @@ export default function Resume() {
           </div>
         </div>
         <div className='footer-bttn'>
-            <a href='#' target='/blank' className='down-btn'>Download</a>
+            <a href={require("../../assets/22165_Tannu.pdf")} download="Tannu_Portfolio" className='down-btn'>Download</a>
             <div className='icons d-flex align-items-center'>
               <a href='' target='/blank'><SiGmail /></a>
               <a href='' target='/blank'><FaLinkedinIn /></a>

@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../nav/Header'
 import './Home.css'
 import { BsChevronDown } from 'react-icons/bs';
 import { FaLinkedinIn, FaGithub, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import myPic from '../../assets/Tannu.png';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
+  const [hoveredEye, setHoveredEye] = useState('^');
+  const handleMouseEnter = () => {
+    setHoveredEye('~');
+  }
+  const handleMouseLeave = () => {
+    setHoveredEye('^');
+  }
   return (
     <div className='home'>
         <div className='landing-section'>
@@ -16,15 +24,15 @@ export default function Home() {
                 <h3>Designing user interfaces over 2 years as a product designer</h3>
             </div>
             <div className='know-link'>
-                <a href="#">Know more <BsChevronDown /></a>
+                <a to="#about">Know more <BsChevronDown /></a>
             </div>
         </div>
-        <div className='about-section'>
+        <div className='about-section' id='about'>
           <div className='mypic'>
             <img src={myPic} />
           </div>
           <div className='about-content'>
-            <h1>About me ^_^</h1>
+            <h1 onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>About me ^_<span>{hoveredEye}</span></h1>
             <div className='about-content-text'>
             <p>2 years back, I was lucky enough to pirate a copy of the latest version of Adobe XD and my life has never been the same since. My love for designing came from the projects that I did in my school from designing invitation cards to participating in design contests. From that point on I felt that design would be the one thing that would help me stand out in the crowd, it was as if I had found my true calling.</p><p> Being a graduate in Computer Science, taking up college projects helped me grab my first opportunity as UI/UX design team lead in Google Developer Students Club (DCE) and contributed to the fact that it made me a Jack of all trades in the design realm. That meant that I was quickly able to grab and adapt concepts in UI/UX, Logo Design, and Prototyping.</p><p> Fast forward to today, I'm a freelance UI/UX designer, I offer a proven ability to conduct creative analysis and design best-fit solutions. As a detail-oriented individual with a passion for excellence, I'm adept at listening to clients' needs, then analyzing and implementing the best-designed solution. And for the future, I'm looking for more designing interfaces opportunity and to work on amazing projects.</p>
             </div>
