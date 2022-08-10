@@ -16,16 +16,16 @@
 .navbar-expand-lg .navbar-nav .nav-link a{
     float: right;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Ibarra Real Nova', serif;
     color: #000000;
-    font-weight: 500;
+    font-weight: 400;
     margin: auto 20px;
     position: relative;
     padding-bottom: 10px;
 }
 .navbar-expand-lg .navbar-nav .nav-link a:hover{
-    font-weight: 700;
+    font-weight: 400.5;
 }
 .navbar-expand-lg .navbar-nav .nav-link a::after {
     content: '';
@@ -48,11 +48,11 @@
     transform: scale(1);
   }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     .navbar div{
         padding: 0;
     }
-    .mb-nav-brand{
+    .lg-nav-brand{
         display: inline-block !important;
         font-size: 40px;
         padding: 5% 0 5% 10%;

@@ -1,5 +1,5 @@
 .resume{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .resume .com-r{
@@ -14,12 +14,12 @@
 }
 .resume .com-r h1{
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 30px;
+    font-size: 24px;
     border-bottom: 2px solid #D2CBBA;
     margin-bottom: 20px;
 }
 .resume .com-r p{
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Ibarra Real Nova', serif;
     letter-spacing: 1.5px;
     margin-bottom: 0;
@@ -34,7 +34,7 @@
 }
 .resume .experience .exp-div div h3,
 .resume .education .edu-div div h3{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Ibarra Real Nova', serif;
     letter-spacing: 2.3px;
     font-weight: 800;
@@ -44,7 +44,7 @@
 .resume .education .edu-div div p{
     letter-spacing: 2px;
     opacity: 0.7;
-    font-size: 15px;
+    font-size: 13px;
 }
 .resume .experience .exp-div div p:nth-child(3),
 .resume .education .edu-div div p:nth-child(3){
@@ -63,13 +63,13 @@
     width: 80%;
 }
 .resume .skills .skills-div h3{
-    font-size: 27px;
+    font-size: 22px;
     letter-spacing: 1.62px;
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 700;
 }
 .resume .skills .skills-div p{
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: 1.32px;
     font-family: 'Ibarra Real Nova', serif;
 }
@@ -84,7 +84,7 @@
     border-radius: 31px;
     letter-spacing: 2.4px;
     color: #ACA186;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Ibarra Real Nova', serif;
     padding: 10px 30px;
     font-weight: 700;
@@ -105,8 +105,8 @@
     justify-content: center;
 }
 .footer-bttn .icons svg{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin: 0 20px;
     color: #000;
 }

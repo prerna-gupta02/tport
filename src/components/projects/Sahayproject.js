@@ -132,10 +132,10 @@ export default function Sahayproject() {
                 </div>
                 <p>Check out other projects.</p>
                 <div className='icons d-flex align-items-center'>
-                    <a href='' target='/blank'><SiGmail /></a>
-                    <a href='' target='/blank'><FaLinkedinIn /></a>
-                    <a href='' target='/blank'><FaGithub /></a>
-                    <a href='' target='/blank'><FaBehance /></a>
+                    <a href='mailto:tannu.sharma470@gmail.com'><SiGmail /></a>
+                    <a href='https://www.linkedin.com/in/tannu-sharma-38ab521a9/' target='/blank'><FaLinkedinIn /></a>
+                    <a href='https://github.com/tan404' target='/blank'><FaGithub /></a>
+                    <a href='https://www.behance.net/tannusharma' target='/blank'><FaBehance /></a>
                 </div>
             </div>
         </div>

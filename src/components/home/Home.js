@@ -21,10 +21,11 @@ export default function Home() {
             <Header />
             <div className='landing-text'>
                 <h1><span>Hello! I'm</span> Tannu Sharma</h1>
-                <h3>Designing user interfaces over 2 years as a product designer</h3>
+                <h3>I'm a <Link to='https://in.coursera.org/account/accomplishments/verify/7DJHJQTKPXZR?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course' target='_blank'>Google-certified UX designer</Link></h3>
+                <h3>Designing user interfaces over 2 years</h3>
             </div>
             <div className='know-link'>
-                <a to="#about">Know more <BsChevronDown /></a>
+                <a href="#about">Know more <BsChevronDown /></a>
             </div>
         </div>
         <div className='about-section' id='about'>
@@ -38,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='contact-section'>
+        <div className='contact-section' id='contact'>
           <h1>Connect with me</h1>
           <p>I would be happy to further discuss my experiences</p><p> with you, simply shoot me an email or message</p><p> me on Linkedin! : {')'}</p>
           <div className='form d-flex flex-column'>
@@ -46,10 +47,10 @@ export default function Home() {
             <button onSubmit={""} className="btn" >Send</button>
           </div>
           <div className='icons d-flex justify-content-center'>
-            <a href='' target='/blank'><SiGmail /></a>
-            <a href='' target='/blank'><FaLinkedinIn /></a>
-            <a href='' target='/blank'><FaGithub /></a>
-            <a href='' target='/blank'><FaBehance /></a>
+            <a href='mailto:tannu.sharma470@gmail.com'><SiGmail /></a>
+            <a href='https://www.linkedin.com/in/tannu-sharma-38ab521a9/' target='/blank'><FaLinkedinIn /></a>
+            <a href='https://github.com/tan404' target='/blank'><FaGithub /></a>
+            <a href='https://www.behance.net/tannusharma' target='/blank'><FaBehance /></a>
           </div>
         </div>
     </div>

@@ -14,10 +14,17 @@ import {
     DropdownItem,
     NavbarText
   } from 'reactstrap';
-import {Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { Link as Lik, animateScroll as scroll } from "react-scroll";
+import { HashLink } from 'react-router-hash-link'
   
 
 export default function Header(args) {
+  const navigate = useNavigate();
+  const contactHandle = (e) => {
+    e.preventDefault();
+    navigate('/#contact');
+  }
     const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -39,7 +46,7 @@ export default function Header(args) {
               <NavLink><Link to="/resume">Resume</Link></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink><Link to="/">Contact</Link></NavLink>
+              <NavLink><HashLink to="/#contact">Contact</HashLink></NavLink>
             </NavItem>
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}
