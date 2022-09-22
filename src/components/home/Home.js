@@ -21,7 +21,7 @@ export default function Home() {
             <Header />
             <div className='landing-text'>
                 <h1><span>Hello! I'm</span> Tannu Sharma</h1>
-                <h3>I'm a <a href='https://in.coursera.org/account/accomplishments/verify/7DJHJQTKPXZR?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course' target='_blank'>Google-certified UX designer</a></h3>
+                <h3>I'm a <a href='https://in.coursera.org/learn/foundations-user-experience-design/home/week/4?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta' target='_blank'>Google-certified UX designer</a></h3>
                 <h3>Designing user interfaces over 2 years</h3>
             </div>
             <div className='know-link'>
