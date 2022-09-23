@@ -100,7 +100,7 @@ export default function Resume() {
           </div>
         </div>
         <div className='footer-bttn'>
-            <a href={require("../../assets/22165_Tannu.pdf")} download="Tannu_Portfolio" className='down-btn'>Download</a>
+            <a href={require("../../assets/Tannu's Resume.pdf")} download="Tannu_Portfolio" className='down-btn'>Download</a>
             <div className='icons d-flex align-items-center'>
               <a href='mailto:tannu.sharma470@gmail.com'><SiGmail /></a>
               <a href='https://www.linkedin.com/in/tannu-sharma-38ab521a9' target='/blank'><FaLinkedinIn /></a>
