@@ -11,6 +11,7 @@ import { Button } from 'reactstrap'
 import { FaLinkedinIn, FaGithub, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { Link } from 'react-router-dom'
+import Xciteducationlogo from '../../assets/Xciteducationlogo.png'
 
 export default function Resume() {
   return (
@@ -23,6 +24,14 @@ export default function Resume() {
           </div>
           <div className='com-r experience'>
             <h1>Experience</h1>
+            <div className='d-flex exp-div'>
+              <img src={Xciteducationlogo}/>
+              <div style={{marginLeft: '18px'}}>
+                <h3>Product Designer</h3>
+                <p>Xciteducation Worldwide | Sept 2022 - Present</p>
+                <p>Worked on designing websites, prototyping, wireframing and user research.</p>
+              </div>
+            </div>
             <div className='d-flex exp-div'>
               <img src={devTownLogo}/>
               <div>
