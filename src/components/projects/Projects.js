@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../nav/Header'
-import './Resume.css'
+//import './Resume.css'
 import devTownLogo from '../../assets/devtownlogo.png'
 import gdscLogo from '../../assets/gdsc.png'
 import impaacLogo from '../../assets/impaac.png'
