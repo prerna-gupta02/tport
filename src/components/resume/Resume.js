@@ -12,6 +12,7 @@ import { FaLinkedinIn, FaGithub, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { Link } from 'react-router-dom'
 import Xciteducationlogo from '../../assets/Xciteducationlogo.png'
+import MatrialLibraryLogo from '../../assets/Material Library.png'
 
 export default function Resume() {
   return (
@@ -20,15 +21,23 @@ export default function Resume() {
         <div className='resume'>
           <div className='com-r about'>
             <h1>About me</h1>
-            <p>Hi, I'm Tannu. I'm a versatile User Experience Designer based in Gurugram, India. As a freelance UI/UX designer, I have a proven ability to conduct creative analysis and design best-fit solutions. As a detail-oriented individual with a passion for excellence, I'm adept at listening to clients' needs, then analyzing and implementing the best-designed solution.</p>
+            <p style={{fontWeight: 'bold'}}>Hi, I'm Tannu. I'm a flexible User Experience Designer based in Gurugram, India. As a UI/UX designer, I have a proven ability to conduct creative analysis and design best-fit solutions. As a detail-oriented individual with a passion for excellence, I'm adept at listening to project's needs, then analyzing and implementing the best-designed solution.</p>
           </div>
           <div className='com-r experience'>
             <h1>Experience</h1>
             <div className='d-flex exp-div'>
+              <img style={{height: '84px'}} src={MatrialLibraryLogo}/>
+              <div style={{marginLeft: '18px'}}>
+                <h3>UI/UX Designer</h3>
+                <p>Material Library | Oct 2022 - Present</p>
+                <p>Producing high-quality UX design solutions through wireframes, visual and graphic designs, flow diagrams, storyboards, site maps, and prototypes.</p>
+              </div>
+            </div>
+            <div className='d-flex exp-div'>
               <img src={Xciteducationlogo}/>
               <div style={{marginLeft: '18px'}}>
                 <h3>Product Designer</h3>
-                <p>Xciteducation Worldwide | Sept 2022 - Present</p>
+                <p>Xciteducation Worldwide | Sept 2022 - Nov 2022 • 3 mos</p>
                 <p>Worked on designing websites, prototyping, wireframing and user research.</p>
               </div>
             </div>
@@ -96,6 +105,7 @@ export default function Resume() {
                 <p>Illustrator</p>
                 <p>Photoshop</p>
                 <p>HTML & CSS</p>
+                <p>Python</p>
               </div>
               <div className='soft-skills'>
                 <h3>Soft Skills</h3>
@@ -109,7 +119,7 @@ export default function Resume() {
           </div>
         </div>
         <div className='footer-bttn'>
-            <a href={require("../../assets/Tannu's Resume.pdf")} download="Tannu_Portfolio" className='down-btn'>Download</a>
+            <a href={require("../../assets/Tannu Sharma (22165).pdf")} download="Tannu_Portfolio" className='down-btn'>Download</a>
             <div className='icons d-flex align-items-center'>
               <a href='mailto:tannu.sharma470@gmail.com'><SiGmail /></a>
               <a href='https://www.linkedin.com/in/tannu-sharma-38ab521a9' target='/blank'><FaLinkedinIn /></a>

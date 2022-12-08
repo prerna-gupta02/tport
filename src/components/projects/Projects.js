@@ -20,17 +20,17 @@ export default function Projects() {
                     <p>SAHAY - A helping hand app</p>
                 </div>
                 <div>
-                    <a href=''><img src={highrfive} /></a>
+                    <a href='https://www.behance.net/gallery/138397887/High-Five-Website'><img src={highrfive} /></a>
                     <p>High Five - A hackathon</p><p>organizing website</p>
                 </div>
             </div>
             <div className='project-section d-flex justify-content-between'>
                 <div className='d-flex align-items-center justify-content-center flex-column'>
-                    <a href=''><img src={dylansCoffee} /></a>
+                    <a href='https://www.behance.net/gallery/127795727/Dylans-Coffee-Logo'><img src={dylansCoffee} /></a>
                     <p>Dylan's Coffee Logo</p>
                 </div>
                 <div>
-                    <a href=''><img src={pitchm} /></a>
+                    <a href='https://www.behance.net/gallery/127795283/Pitch-Music-Logo'><img src={pitchm} /></a>
                     <p>Pitch Music Logo</p>
                 </div>
             </div>
