@@ -28,6 +28,22 @@
     width: 65%;
     margin: 30px auto;
 }
+.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+    width: 50% !important;
+    height: 200px !important;
+    margin: 100px auto;
+    padding-top: 30.25% !important;
+}
+.video-react .video-react-video {
+    object-fit: unset;
+}
+.video-react .video-react-big-play-button {
+    line-height: 1.4em !important;
+    height: 1.5em !important;
+    width: 1.5em !important;
+    left: 50% !important;
+    border-radius: 50% !important;
+}
 .sahay-project .sahayimage{
     width: 60%;
     margin: 0 20%;

@@ -28,6 +28,9 @@ import registration from '../../assets/Registration.png'
 import locationpng from '../../assets/Location.png'
 import { FaLinkedinIn, FaGithub, FaBehance } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import sahayGDSC from '../../assets/Sahay-GDSC.mp4';
+import { Player, BigPlayButton } from 'video-react';
+import 'video-react/dist/video-react.css';
 
 export default function Sahayproject() {
   return (
@@ -36,6 +39,10 @@ export default function Sahayproject() {
         <div className='sahay-project'>
             <h1 className='main-h'>Sahay Application</h1>
             <p className='main-p'>Sahay is a Hindi word that means helping others. With a vision to build a platform for donating items like clothes, stationery, food, etc, we came up with Sahay, an easy-to-use android application for connecting NGOs and Donors.</p>
+            <Player src={sahayGDSC} fluid>
+                <BigPlayButton position="center" />
+            </Player>
+            {/* <iframe src={sahayGDSC} width="540" height="310"></iframe> */}
             <img src={sahayimage} className='sahayimage' />
             <div className='topography-icons d-flex justify-content-between'>
                 <div className='topography'>
